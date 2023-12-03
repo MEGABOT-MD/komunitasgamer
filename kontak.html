@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Minecraftia&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Komunitas Gamer - Kontak</title>
+</head>
+<body>
+
+    <header>
+        <h1>Komunitas Gamer</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="button">Beranda</a></li>
+                <li><a href="anggota.html" class="button">Anggota</a></li>
+                <li><a href="acara.html" class="button">Acara</a></li>
+                <li><a href="kontak.html" class="button">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="contact-content">
+        <h2>Hubungi Kami</h2>
+        
+        <div class="contact-info">
+            <p>Jika Anda memiliki pertanyaan atau ingin berkomunikasi dengan kami, silakan hubungi kami melalui formulir di bawah ini atau melalui media sosial kami.</p>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="tiktok.com/@mcpakel" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                <a href="https://youtube.com/@alexpakel?si=POTnHCogV7pl6-0H" class="social-icon"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form id="contactForm" action="sendmail.php" method="post">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="submit-button">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Temui kami di media sosial:</p>
+        <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="tiktok.com/@mcpakel" class="social-icon"><i class="fab fa-tiktok"></i></a>
+            <a href="https://youtube.com/@alexpakel?si=POTnHCogV7pl6-0H" class="social-icon"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p>&copy; Website di buat oleh MCPAKEL . 2023</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
